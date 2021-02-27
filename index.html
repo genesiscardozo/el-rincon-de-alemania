@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Panadería y Pastelería el Rincón de Alemania, recetas alemanas y postres alemanes en Buenos Aires, Inicio de panadería y Redes Sociales">
+	<meta name="keywords" content="HOME, INICIO, REDES, PANADERÍA, DULCES, PANES, POSTRES, RECETAS, PAN CASERO, LEVADURAS">
+	<title> Home de Panadería el Rincón de Alemania </title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/png" href="pictures\icon.png" sizes="16x16">
+</head>
+
+<body class="bodyIndex">
+	<header>
+		<!--  Barra de navegación -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand"><img src="pictures\iconicon-04.png" alt="logo de Panadería El Rincón de Alemania"></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="nosotros.html">Nosotros</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Ir a 
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="productos.html">Productos</a></li>
+								<li><a class="dropdown-item" href="menu.html">Menú</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" href="contacto.html#redesSociales">Redes Sociales</a></li>
+								<li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="menu.html" tabindex="-1" aria-current="true"> Menú </a>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-secondary dark" type="submit">Search</button>
+					</form>
+				</div>
+			</div>
+		</nav> 
+	</header>
+	<!--Fin de barra de nevegación -->
+	<!--Carrusel -->
+	<main>
+		<div class="CarruselTamaño">
+			<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
+					<li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
+					<li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active" data-bs-interval="10000">
+						<img class="d-block img-fluid" src="pictures\rincon.jpg" alt="Vitrina de Panadería Rincón de Alemania">
+						<div class="carousel-caption d-md-block">
+							<h1 class="titleIndex max-width: 0">Panadería El Rincón de Alemania</h1>
+							<h5>¡Contáctanos!</h5>
+							<p>
+								<nav>
+									<a href="https://www.instagram.com/" target="_blank"> Instagram </a>&nbsp;
+									<a href="https://www.facebook.com/" target="_blank"> Facebook </a>&nbsp;
+									<a href="https://www.youtube.com/" target="_blank"> Youtube </a>
+								</nav>
+							</p>
+						</div>
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="pictures\medialuna.jpg" class="d-block img-fluid" alt="medialuna espolvoreada">
+					</div>
+					<div class="carousel-item">
+						<img src="pictures\panes.jpg" class="d-block img-fluid" alt="panes en exhibidora">
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleDark" role="button" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</a>
+			</div>
+		</div>
+		<!--Fin del Carrusel -->
+		<!-- Sección de Íconos --> 
+		<div class="indexBottomCarrousel">
+			<section class="fact-area"> 
+				<div class="container">
+					<div class="fact-box">
+						<div class="row">
+							<!-- ÍCONO 1 NOSTROS--> 
+							<div class="col-lg col-6 single-fact"> 
+								<div class="d-flex justify-content-center">
+									<a href="nosotros.html" class="newLink">
+										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+											<path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+											<path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+											<path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+										</svg>
+									</a>
+								</div>
+								<div class="d-flex justify-content-center" id="iconNosotros">
+									<h2 style="color: black;"> Nosotros</h2>
+								</div>
+								<p class="d-flex justify-content-center" style="color:black;" id="parrafoNosotros"> Conoce nuestra historia! </p>
+							</div>
+							<!-- ÍCONO 2 CONTACTO --> 
+							<div class="col-lg col-6 single-fact">
+								<div class="d-flex justify-content-center", class="">
+									<a href="contacto.html" class="newLink">
+										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-envelope-open-fill" viewBox="0 0 16 16">
+											<path d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.313l6.709 3.933L8 8.928l1.291.717L16 5.715V5.4a2 2 0 0 0-1.059-1.765l-6-3.2zM16 6.873l-5.693 3.337L16 13.372v-6.5zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516zM0 13.373l5.693-3.163L0 6.873v6.5z"/>
+										</svg>
+									</a>
+								</div>
+								<div class="d-flex justify-content-center" id="iconContacto">
+									<h2 style="color: black;"> Contacto </h2>
+								</div>
+								<p class="d-flex justify-content-center" style="color:black;" id="parrafoContacto"> Conoce nuestra historia! </p>
+							</div>
+							<!-- ÍCONO 3 RECETAS --> 
+							<div class="col-lg col-6 single-fact"> 
+								<div class="d-flex justify-content-center">
+									<a href="menu.html" class="newLink">
+										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+											<path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+										</svg>
+									</a>
+								</div>
+								<div class="d-flex justify-content-center" id="iconRecetas">
+									<h2 style="color: black;"> Recetas </h2>
+								</div>
+								<p class="d-flex justify-content-center" style="color:black;" id="parrafoRecetas"> Conoce nuestras recetas! </p>
+							</div>
+							<!-- ÍCONO 4 PRODUCTOS --> 
+							<div class="col-lg col-6 single-fact"> 
+								<div class="d-flex justify-content-center">
+									<a href="productos.html" class="newLink">
+										<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-handbag-fill" viewBox="0 0 16 16">
+											<path d="M8 1a2 2 0 0 0-2 2v2H5V3a3 3 0 0 1 6 0v2h-1V3a2 2 0 0 0-2-2zM5 5H3.361a1.5 1.5 0 0 0-1.483 1.277L.85 13.13A2.5 2.5 0 0 0 3.322 16h9.356a2.5 2.5 0 0 0 2.472-2.87l-1.028-6.853A1.5 1.5 0 0 0 12.64 5H11v1.5a.5.5 0 0 1-1 0V5H6v1.5a.5.5 0 0 1-1 0V5z"/>
+										</svg>
+									</a>
+								</div>
+								<div class="d-flex justify-content-center" id="iconProductos">
+									<h2 style="color: black;"> Productos</h2>
+								</div>
+								<p class="d-flex justify-content-center" style="color:black;" id="parrafoProductos"> Conoce nuestra historia! </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+	</main>
+
+	<!-- footer y barra/footer -->
+	<footer class="footerInicio">
+		<ul class="nav justify-content-center bg-dark">
+			<li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="menu.html">Menú</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="nosotros.html">Nosotros</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="contacto.html#redesSociales">Redes Sociales</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="contacto.html">Contacto</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link"> 2020. El Rincón de Alemania. Todos los Derechos Reservados.</a>
+			</li>
+		</ul>
+	</footer>
+	<!-- Js Bootsrap --> 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"> </script>
+</body>
+</html>

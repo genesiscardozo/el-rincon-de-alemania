@@ -1,0 +1,164 @@
+p {
+	font-size: 20px;	
+	color:white;
+}
+
+h5 {
+	font-size: 30px;
+	color:white;
+}
+
+.titleIndex {
+	font-size: 45px;
+	color:white;
+	padding-bottom: 200px;
+}
+
+a {
+	color: #D0B361;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #F7D26A;
+}
+
+.recetasSection {
+	color: black;
+}
+
+.fieldsetOptions {
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+.telephone {
+	padding-right: 40px;
+}
+
+.location {
+	padding-right: 40px;         
+}
+
+.mail {
+	padding-right: 40px;            
+}
+
+.carousel-inner {
+	width: 100%;
+	max-height: 560px;
+}
+
+.carousel-item {
+	width: 100%;
+	max-height: 560px;
+}
+
+.center {
+	padding-bottom: 30px;
+	padding-top: 50px;
+}
+.staff {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.imgTitle {
+	font-size: 40px;
+}
+
+.titlesProducts {
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+.recetasSection {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.buttonClass {
+	padding-bottom: 50px;
+	padding-top: 50px;
+	font-size: 20px;
+}
+
+.bodyNosotros {
+	color: black;
+	background-image: none;
+	background-color: white;	
+}
+
+.nosotrosN {
+	color: black;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.nosotrosNTitle {
+	color: black;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+.tartaImage {
+	padding-top: 70px;
+}
+
+.imagesTogether
+{
+	padding-top: 60px;
+}
+
+.bodyIndex {
+	background-color: white;
+}
+
+.indexBottomCarrousel {
+
+	padding-top: 95px;
+	padding-bottom: 95px;
+}
+
+#iconNosotros {
+	padding-top: 40px;
+}
+
+#iconContacto {
+	padding-top: 40px;
+}
+
+#iconRecetas {
+	padding-top: 40px;
+}
+
+#iconProductos {
+	padding-top: 40px;
+}
+
+/* PADDING DE LOS PÁRRAFOS */
+
+#parrafoNosotros {
+	padding-top: 30px;
+}
+
+#parrafoContacto {
+	padding-top: 30px;
+}
+
+#parrafoRecetas {
+	padding-top: 30px;
+}
+
+#parrafoProductos {
+	padding-top: 30px;
+}
+
+/* Fin de padding de los párrafos*/
+
+.newLink {
+	color: #3A3836;
+	text-decoration: none;
+}

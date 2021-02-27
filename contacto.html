@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Productos </title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/png" href="pictures\icon.png" sizes="16x16">
+</head>
+<body class="bodyProductos">
+	<!-- header -->
+	<!-- Barra de navegación -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html"> <img src="pictures\iconicon-04.png" alt="logo de Panadería El Rincón de Alemania"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="nosotros.html">Nosotros</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Ir a 
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="productos.html">Productos</a></li>
+							<li><a class="dropdown-item" href="menu.html">Menú</a></li>
+							<li><hr class="dropdown-divider"></li>
+							<li><a class="dropdown-item" href="contacto.html#redesSociales">Redes Sociales</a></li>
+							<li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="menu.html" tabindex="-1" aria-current="true"> Menú </a>
+					</li>
+				</ul>
+				<form class="d-flex">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-secondary dark" type="submit">Search</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+</header>
+<!--Fin de barra de nevegación -->
+<!--Main body -->
+<!--Carrusel de Productos -->
+<main>
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+			<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+			<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="pictures\panaleman.png" class="d-block w-100" alt="pan alemán">
+				<div class="carousel-caption d-md-block">
+					<h5 class="imgTitle">Panes</h5>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="pictures\cherry.png" class="d-block w-100" alt="pan con trigo">
+				<div class="carousel-caption d-md-block">
+					<h5 class="imgTitle">Tortas</h5>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="pictures\strudel.png" class="d-block w-100" alt="diferentes panes">
+				<div class="carousel-caption d-md-block">
+					<h5 class="imgTitle">Tartas</h5>
+				</div>
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</a>
+	</div>
+	<!-- Fin del Carrusel de Productos -->
+	<div class="container-fluid">
+		<div class="titlesProducts">
+			<h1 class="d-flex justify-content-center"> Panes </h1>
+		</div>
+		<p class="recetasSection">El pan alemán es muy conocido por su mezcla de harinas, avenas y granos que lo hacen un pan rico en fibra. Existen muchísimas variadades: de centeno, integral, sin corteza, mixto. </p>
+		<p class="recetasSection">En el Rincón de Alemania, te traemos de generación en generación, el tradicional pan alemán. </p> 
+		<div class="d-flex justify-content-center">
+			<img src="pictures\bread.jpg" alt="pan y rebanadas de pan sobre una tabla"> 
+		</div>
+
+		<div class="titlesProducts">
+			<h1 class="d-flex justify-content-center"> Tortas </h1>
+		</div>
+		<p class="recetasSection"> En la Panadería el Rincón de Alemania, queremos acompañarte durante tu día. Por eso, te traemos muchas recetas sencillas que podrás hacer para tus desayunos, meriendas y cenas. ¡Te invitamos a explorar todas las recetas disponibles!</p> 
+		<div class="d-flex justify-content-center"> 
+			<img src="pictures\cakee.jpg" alt=""> 
+		</div>
+
+		<div class="titlesProducts">
+			<h1 class="d-flex justify-content-center"> Tartas </h1>
+		</div>
+		<p class="recetasSection"> En la Panadería el Rincón de Alemania, queremos acompañarte durante tu día. Por eso, te traemos muchas recetas sencillas que podrás hacer para tus desayunos, meriendas y cenas. ¡Te invitamos a explorar todas las recetas disponibles!</p> 
+		<div class="d-flex justify-content-center">
+			<img src="pictures\strawberry.jpg" alt=""> 
+		</div>
+	</div>
+
+	<div class="buttonClass">
+		<div class="d-flex justify-content-center">
+			<a href="index.html">Home </a> 
+		</div>
+	</div>
+	<!-- footer --> 
+	<!-- footer y barra/footer -->
+	<footer>
+		<ul class="nav justify-content-center bg-dark">
+			<li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="menu.html">Menú</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="nosotros.html">Nosotros</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="contacto.html#redesSociales">Redes Sociales</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="contacto.html">Contacto</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link"> 2020. El Rincón de Alemania. Todos los Derechos Reservados.</a>
+			</li>
+		</ul>
+	</footer>
+	<!-- Js Bootsrap --> 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"> </script>
+</body>
+</html>

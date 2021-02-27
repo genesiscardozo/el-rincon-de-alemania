@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Menú de Panadería el Rincón de Alemania, Los Mejores Postres y Recetas</title>
+	<meta name="description" content="Menú de Panadería y Pastelería el Rincón de Alemania, recetas alemanas fáciles y postres alemanes en Buenos Aires, pan casero fácil,recetas fáciles, recetas al horno, recetas saludables">
+	<meta name="keywords" content="PANADERÍA, DULCES, PANES, POSTRES, RECETAS, CASERO, CASERITOS, ZEPPELINES, CENTENO, MULTICEREALES, HARINA, LEUDANTE, LEVADURA">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/png" href="pictures\icon.png" sizes="16x16">
+</head>
+<body>
+	<header>
+		<!-- Inicio de nav bar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html"> <img src="pictures\iconicon-04.png" alt="logo de Panadería El Rincón de Alemania"> </a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="nosotros.html">Nosotros</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Ir a
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="productos.html">Productos</a></li>
+								<li><a class="dropdown-item">Menú</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" href="contacto.html#redesSociales">Redes Sociales</a></li>
+								<li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contacto.html" tabindex="-1" aria-current="true"> Contacto </a>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-secondary dark" type="submit">Search</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- Fin Nav Bar --> 
+	<!--Carrusel de Menú -->
+	<main>
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+				<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+				<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="pictures\pan.png" class="d-block w-100" alt="pan alemán">
+				</div>
+				<div class="carousel-item">
+					<img src="pictures\aderezos.png" class="d-block w-100" alt="pan con trigo">
+				</div>
+				<div class="carousel-item">
+					<img src="pictures\unospanes.png" class="d-block w-100" alt="diferentes panes">
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</a>
+		</div>
+		<!-- Fin del Carrusel de Menú -->
+
+		<div class="container-fluid">
+			<h1> Recetas </h1>
+			<p class="recetasSection"> En la Panadería el Rincón de Alemania, queremos acompañarte durante tu día. Por eso, te traemos muchas recetas sencillas que podrás hacer para tus desayunos, meriendas y cenas. ¡Te invitamos a explorar todas las recetas disponibles!</p> 
+
+			<p class="recetasSection"> ¡Te invitamos a compartir tus resultados en las Redes Sociales usando el hashtag #RecetasElRincóndeAlemania! </p> 
+			<button type="button" class="btn btn-dark justify-content-center"> <a href="https://twitter.com" target="_blank">Compartir </a> </button>
+		</div>
+		<br>
+		<div class="accordion bg-light" id="accordionExample">
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="headingOne">
+					<button class="accordion-button bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						Pasteles
+					</button>
+				</h2>
+				<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						<ul>
+							<li>Torta Alemana</li>
+							<li>Bizcocho Alemán</li>
+							<li> Pastel de Selva Negra</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="headingTwo">
+					<button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						Panes
+					</button>
+				</h2>
+				<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						<ul>
+							<li>Pan Mixto Alemán</li>
+							<li>Pan de Centeno</li>
+							<li>Pan de Grano Entero</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="headingThree">
+					<button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						Postres
+					</button>
+				</h2>
+				<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						<ul>
+							<li>Strudel de Manzana</li>
+							<li>Pastel de Ciruelas Alemán</li>
+							<li>Bavaroise</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="imagesTogether">
+			<div class="container">
+				<div class="row">
+
+					<div class="col order-first">
+						<img src="pictures\unouno.png">
+					</div>
+
+					<div class="col order-2">
+						<img src="pictures\dosdos.png">
+					</div>
+
+					<div class="col order-3">
+						<img src="pictures\trestres.png">
+					</div>
+
+					<div class="col order-last">
+						<img src="pictures\sietesiete.png">
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="imagesTogether">
+			<div class="container">
+				<div class="row">
+					<div class="col order-first">
+						<img src="pictures\cuatrocuatro.png">
+					</div>
+					<div class="col order-2">
+						<img src="pictures\cincocinco.png">
+					</div>
+					<div class="col order-2">
+						<img src="pictures\seisseis.png">
+					</div>
+
+					<div class="col order-last">
+						<img src="pictures\ochoocho.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</main>
+
+
+<div class="buttonClass">
+	<div class="d-flex justify-content-center">
+		<a href="index.html">Home </a> 
+	</div>
+</div>
+
+<!-- footer -->
+<footer>
+	<ul class="nav justify-content-center bg-dark">
+		<li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="index.html"> Home </a>
+			<li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="menu.html"> Menú </a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="nosotros.html">Nosotros</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="contacto.html#redesSociales">Redes Sociales</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="contact.html">Contacto</a>
+			</li>
+			<li class="nav-item">
+			</li>
+		</ul>
+	</footer>
+	<!-- Js Bootsrap --> 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"> </script>
+</body>
+</html>
